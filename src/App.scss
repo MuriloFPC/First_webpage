@@ -1,0 +1,80 @@
+@charset 'utf-8';
+@import "~bulma/sass/utilities/functions";
+@import "./estilos/cores_especiais.scss";
+
+$custom-colors: (
+  "custom-azul-claro-trans": ($custom-azul-claro-trans),
+  "custom-azul-claro-solid" : ($custom-azul-claro-solid)
+
+);
+
+// Import Bulma styles
+@import "~bulma/bulma";
+
+// Import rbx style fixes
+@import "~rbx/rbx";
+
+
+
+.home{
+  background-size: cover;
+  background-image:linear-gradient(to bottom right, #00ffff 27%, #3333ff 100%), url("./imagens/nuvens.jpg");
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  height: 100vh  ;
+}
+
+.Sobre_nos{
+  background-size: cover;
+  background-image: linear-gradient(to bottom right, #11e4c19d 27%, #90b40ebe 100%),url("./imagens/mar.jpg");
+
+}
+
+.parceiros{
+  background-image: url("./imagens/parede.jpg");
+  background-blend-mode: lighten;
+  img{
+    height: 100px;
+  }
+
+
+}
+nav.scroll{
+  background-color: white;
+}
+
+nav.navbar {
+  height: 70px;
+  background-color:$custom-azul-claro-trans ;
+  
+  .navbar-brand {  
+    img {
+      height: 60px;
+      margin-top:5px;
+    }
+  }
+
+  .button:hover{
+
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    transition: 2s;
+  }
+
+}
+
+.fotter{
+  padding: 1px;
+  spam{
+    padding: 12px;
+
+  }
+
+  .icones {
+    padding: 2px;
+  }
+
+
+}
+
