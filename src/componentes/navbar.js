@@ -61,10 +61,10 @@ function Header() {
                 <Navbar.Menu id="navbar-menu">
                     <Navbar.Segment as="div" className="navbar-item navbar-end" align="rigth">
                             <Button.Group>
-                                    <Button  style={style_btn}>Inicio</Button>
-                                    <Button  style={style_btn}>Sobre nós</Button>
-                                    <Button  style={style_btn}>Parceiros</Button>
-                                    <Button  style={style_btn}>Contato</Button>
+                                    <Button onClick={() => {document.getElementById('inicio').scrollIntoView()}}  style={style_btn}>Inicio</Button>
+                                    <Button onClick={() => {document.getElementById('parceiros').scrollIntoView()}} style={style_btn}>Parceiros</Button>
+                                    <Button onClick={() => {document.getElementById('sobre_nos').scrollIntoView()}} style={style_btn}>Sobre nós</Button>
+                                    <Button onClick={() => {document.getElementById('contatos').scrollIntoView()}} style={style_btn}>Contato</Button>
                             </Button.Group>
                     </Navbar.Segment>
                 </Navbar.Menu>

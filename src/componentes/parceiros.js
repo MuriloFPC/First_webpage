@@ -4,7 +4,7 @@ import Logo from "../imagens/logo.png"
 
 
 const Parceiros = () => (
-    <Section className="parceiros">
+    <Section className="parceiros" id="parceiros">
     <Container >
     <Content textAlign="centered">
     <Title size={2}>PARCEIROS</Title>

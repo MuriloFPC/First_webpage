@@ -3,7 +3,7 @@ import {Section, Title, Container,Column } from 'rbx';
 
 const Titulo = "Sobre nxs"
 const SobreNos = () => (
-    <Section className="Sobre_nos">
+    <Section className="Sobre_nos" id="sobre_nos">
     <Container >
         <Column size="full">
      <Title size={2}>{Titulo}</Title>

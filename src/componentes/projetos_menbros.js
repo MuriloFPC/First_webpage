@@ -9,7 +9,7 @@ function Inicio () {
   const myRef = useRef(null)
 
       return (
-      <Section ref ={myRef} size="medium" className="home">
+      <Section id="inicio" size="medium" className="home">
         <Container>
           <Column.Group>
             <Column size={4}>

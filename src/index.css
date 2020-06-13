@@ -13,6 +13,7 @@ code {
 }
 
 html, body, #root {
+  scroll-behavior: smooth;
   margin: 0px;
   padding: 0px;
   height: 100%;

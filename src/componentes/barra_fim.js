@@ -5,7 +5,7 @@ import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const Fotter = () => (
-    <Footer className = 'fotter'>
+    <Footer className = 'fotter' id="contatos">
         <Column>
         <Content textAlign="centered">
          <FontAwesomeIcon icon={faEnvelope} size='lg' />
