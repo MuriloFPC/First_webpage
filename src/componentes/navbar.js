@@ -1,14 +1,16 @@
-import React, { useRef, useState, useEffect } from "react";
-import ReactDOM from "react-dom";
+import React, {useState} from "react";
 import { Navbar, Container, Button } from "rbx";
-import Logo from "../imagens/logo.png"
+import Logo from "../imagens/logo_full.png"
 import useWindowScrollPosition from "@rehooks/window-scroll-position";
 
 
 
 
 
+
 function Header() {
+    
+
 
     const [change, setChange] = useState(false);
     const changePosition = 150;
@@ -25,7 +27,7 @@ function Header() {
     }
   
     let style = {
-      backgroundColor: change ? "cyan" : "transparent",
+      backgroundColor: change ? "#FBD04D" : "transparent",
       transition: "1s ease",
       position: "fixed",
       right: 0,
@@ -38,13 +40,14 @@ function Header() {
         transition: "1s ease",
         border:change ? "2px solid blue" : "2px solid black",
         color: change ? "white" : "black",
+        
       };
 
     return (
         <Navbar  style={style}>
             <Container>
                 <Navbar.Brand>
-                    <img src={Logo} alt="logo"/>
+                    <img src={Logo} alt="Coletivxs"/>
                     <Navbar.Burger className="navbar-burger burger"
                         aria-label="menu"
                         aria-expanded="false"

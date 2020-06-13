@@ -1,5 +1,5 @@
 import React from 'react'
-import {Footer, Content,Control, Icon,Column,Title } from 'rbx';
+import {Footer, Content,Column} from 'rbx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone, faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faWhatsapp, faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -22,11 +22,11 @@ const Fotter = () => (
                <spam></spam>
          <FontAwesomeIcon icon={faFacebook} size='lg' />
          <spam className="icones"> </spam>
-               <a href =""> Grupo X</a>
+               <a href ="/"> Grupo X</a>
                <spam></spam>
          <FontAwesomeIcon icon={faInstagram} size='lg' />
                   <spam className="icones"> </spam>
-                <a href =""> Grupo X</a>
+                <a href ="/"> Grupo X</a>
   </Content>
         </Column>
 

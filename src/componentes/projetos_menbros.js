@@ -26,7 +26,7 @@ function Inicio () {
             </Column>
             <Column size={3} offset={3}>
               MEMBROS
-              <img src={Logo}/>
+              <img src={Logo} alt=""/>
             </Column>
           </Column.Group>
         </Container>

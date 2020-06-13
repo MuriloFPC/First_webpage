@@ -3,18 +3,20 @@ import './App.scss';
 import Header from './componentes/navbar';
 import Inicio from './componentes/projetos_menbros';
 import SobreNos from './componentes/sobre_nos';
-import Contato from './componentes/contato'
 import Fotter from "./componentes/barra_fim"
 import Parceiros from './componentes/parceiros'
+
+
+  document.title = 'ColetivXs';
+
 
 
 const App = () => (
   <Fragment>
     <Header/>
-    <Inicio classNmae="" />
+    <Inicio/>
     <Parceiros/>
     <SobreNos/>
-    <Contato/>
     <Fotter/>
   </Fragment>
 )
